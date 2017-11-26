@@ -1,10 +1,10 @@
 import numpy as np
-import matplotlib.pyplot as plot
+import matplotlib.pyplot as mpl
 xAxis = np.arange(0, 10, 0.1)
 
 amplitude   = np.sin(xAxis)
-plot.plot(xAxis, amplitude)
-plot.grid(True, which='both')
-plot.axhline(y=0, color='k')
-plot.show()
+mpl.plot(xAxis, amplitude)
+mpl.grid(True, which='both')
+mpl.axhline(y=0, color='k')
+mpl.show()
 
